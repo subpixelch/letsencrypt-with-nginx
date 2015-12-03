@@ -2,7 +2,7 @@
 If you want an A+ score on Qualys [SSL Labs](https://www.ssllabs.com/ssltest/index.html), then this is what you'll need to do. We assume you have already installed [Let's Encrypt](https://letsencrypt.org/) and are ready to retrieve your certificates
 
 0. Install `git` if you haven't already.
-1. `git clone https://github.com/letsencrypt/letsencrypt`
+1. `git clone https://github.com/subpixelch/letsencrypt-with-nginx.git`
 2. Upload all the files (the `letsencrypt` folders should overlap, and they expect to be in your home folder, as does the `.bash_aliases` file).
 3. Execute `./Generate.sh` (you may need to mark it as executable first with `chmod 755 Generate.sh`. As it will warn, this will take a while. Have a seat.
 4. When you've gone and made something in the 15 minutes that could well take, or you've just set up a new SSH session, replace the instances of `$server_name` in `nginx.conf` with your actual domain name.
